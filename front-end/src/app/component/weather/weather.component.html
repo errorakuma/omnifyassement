@@ -1,0 +1,66 @@
+<br />
+<br />
+<br />
+<br />
+<br />
+<div class="centered">
+  <table class="table">
+    <tbody>
+      <tr>
+        <td>
+          <input type="text" placeholder="Enter any city..." #city id="cityinput" />
+          <!-- <input type="text" [value]="city" /> -->
+        </td>
+        <td>
+          <button type="button" class="btn btn-primary" (click)=" [getcity(city.value),getcityB(city.value)]">
+            search
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h3>city</h3>
+        </td>
+        <td>
+          <h3>{{ weather.name }}</h3>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <h3>Temp:</h3>
+        </td>
+        <td>
+          <h3>{{ weather.main.temp }}<sup>o</sup>C</h3>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <h3>Humidity</h3>
+        </td>
+        <td>
+          <h3>{{ weather.main.humidity }}%</h3>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <h3>weather</h3>
+        </td>
+        <td>
+          <h3>{{ weather.weather[0].main }}</h3>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <h3>description</h3>
+        </td>
+        <td>
+          <h3>{{ weather.weather[0].description }}</h3>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Built-By: errorakuma
+Build-Jdk: 19.0.1
+Implementation-Title: springWeather
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: pl.kamilbiernacki
+Implementation-URL: https://spring.io/projects/spring-boot/springWeather
+Created-By: Maven Integration for Eclipse
+
