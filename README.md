@@ -9,7 +9,7 @@
       * Open your terminal and then type $ git clone {the url to the GitHub repo}. This clones the repo.
       
       -----   IN Front-End --------
-       * cd into the new folder and type $ npm install. This installs the required dependencies.
+             * cd into the new folder and type $ npm install. This installs the required dependencies.
         * To run the project, type $ npm start1.
         
 I hope this helps!
